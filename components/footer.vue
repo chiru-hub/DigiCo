@@ -83,6 +83,53 @@
         </div>
       </div>
     </div>
+    <div style="background-color:#363636">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div>
+              <img src="/images/logo-white.png" alt />
+              <p
+                class="text-white w-75"
+                style="opacity:0.45"
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at</p>
+            </div>
+          </div>
+          <div class="offset-lg-2 col-12 col-md-6">
+            <div class="d-flex justify-content-around">
+              <div>
+                <p class="text-white">EXPLORE</p>
+                <p class="text-white" style="opacity:0.45">
+                  Cookies
+                  <br />About
+                  <br />Privacy Policy
+                  <br />Licenses
+                  <br />
+                </p>
+              </div>
+              <div>
+                <p class="text-white">MARKETING</p>
+                <p class="text-white" style="opacity:0.45">
+                  Timeline
+                  <br />News
+                  <br />Insight
+                  <br />Licensing
+                </p>
+              </div>
+              <div>
+                <p class="text-white">CATEGORIES</p>
+                <p class="text-white" style="opacity:0.45">
+                  About
+                  <br />Offices
+                  <br />Terms & conditions
+                  <br />Services
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 <style scoped>
