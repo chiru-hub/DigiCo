@@ -7,16 +7,16 @@
             <nuxt-link class="link" to="/" exact>Home</nuxt-link>
           </div>
           <div class="nav-link">
-            <nuxt-link class="link" to="/whoweare2">About</nuxt-link>
+            <nuxt-link class="link" to="#about">About</nuxt-link>
           </div>
           <div class="nav-link">
-            <nuxt-link class="link" to="/securityservices">Products</nuxt-link>
+            <nuxt-link class="link" to="#products">Products</nuxt-link>
           </div>
           <div class="nav-link">
-            <nuxt-link class="link" to="/pknetwork">Gallery</nuxt-link>
+            <nuxt-link class="link" to="#gallery">Gallery</nuxt-link>
           </div>
         </div>
-        <div>
+        <div class="hide-on-med-and-down">
           <img class="logo" src="/images/logo.png" alt />
         </div>
         <div class="align-self-center">

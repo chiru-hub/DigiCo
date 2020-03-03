@@ -1,7 +1,18 @@
 <template>
   <div>
     <div class="container">
-      <div class="row" style="background-color:#f2f2f2;margin:none !important">
+      <div>
+        <carousel :items="1" :nav="false" :autoplay="true">
+          <img class="caro-img" src="/images/oneplusbanner.png" />
+
+          <img class="caro-img" src="/images/oneplusbanner.png" />
+
+          <img class="caro-img" src="/images/oneplusbanner.png" />
+
+          <img class="caro-img" src="/images/oneplusbanner.png" />
+        </carousel>
+      </div>
+      <div class="row" id="about" style="background-color:#f2f2f2;margin:none !important">
         <div class="col-12 col-lg-5 p-0">
           <div class="pad-new">
             <h2 class="text-center">About Us</h2>
@@ -68,10 +79,28 @@
           </div>
         </div>
       </div>
-      <div class="mt-5">
-        <!-- carousel -->
+      <div
+        class="mt-5 shadow-lg"
+        id="products"
+        style="background-color:white;box-shadow:rgba(0, 0, 0, 0.16)"
+      >
+        <h2 class="py-3 pl-4 border-bottom">Explore our Product Gallery</h2>
+        <carousel :items="3" :nav="false" :autoplay="true">
+          <div class="img__container">
+            <img class="caro-img" src="/images/ac_new.png" />
+          </div>
+          <div class="img__container">
+            <img class="caro-img" src="/images/btspeaker_new.png" />
+          </div>
+          <div class="img__container">
+            <img class="caro-img" src="/images/greenheadphones_new.png" />
+          </div>
+          <div class="img__container">
+            <img class="caro-img" src="/images/iphone_new.png" />
+          </div>
+        </carousel>
       </div>
-      <div>
+      <div class="mt-5" id="gallery">
         <div class="d-flex justify-content-center">
           <span class="deals">Hot Deals</span>
           <span class="deals ml-4">BestSeller</span>
@@ -171,9 +200,31 @@
     </div>
   </div>
 </template>
+<script>
+import carousel from "vue-owl-carousel";
+
+export default {
+  components: { carousel }
+};
+</script>
+
 <style scoped>
 .pad-new {
   padding: 27px 48px;
+}
+
+.img__container {
+  width: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img__container img {
+  height: 200px;
+  width: auto;
+  object-fit: cover;
+  object-position: center;
 }
 
 .product-image {

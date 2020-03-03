@@ -2,9 +2,9 @@
   <div>
     <div class="social d-flex justify-content-center align-items-center">
       <img class="social-icons" src="/images/facebook.png" alt />
-      <img class="social-icons ml-5" src="/images/facebook.png" alt />
-      <img class="social-icons ml-5" src="/images/facebook.png" alt />
-      <img class="social-icons ml-5" src="/images/facebook.png" alt />
+      <img class="social-icons ml-5" src="/images/instagram.png" alt />
+      <img class="social-icons ml-5" src="/images/twitter.png" alt />
+      <img class="social-icons ml-5" src="/images/pinterest.png" alt />
     </div>
     <div style="background-color:#f4f4f4">
       <div class="container p-5">
@@ -98,7 +98,7 @@
           <div class="offset-lg-2 col-12 col-md-6">
             <div class="d-flex justify-content-around">
               <div>
-                <p class="text-white">EXPLORE</p>
+                <p class="text-white font-weight-bold">EXPLORE</p>
                 <p class="text-white" style="opacity:0.45">
                   Cookies
                   <br />About
@@ -108,7 +108,7 @@
                 </p>
               </div>
               <div>
-                <p class="text-white">MARKETING</p>
+                <p class="text-white font-weight-bold">MARKETING</p>
                 <p class="text-white" style="opacity:0.45">
                   Timeline
                   <br />News
@@ -117,7 +117,7 @@
                 </p>
               </div>
               <div>
-                <p class="text-white">CATEGORIES</p>
+                <p class="text-white font-weight-bold">CATEGORIES</p>
                 <p class="text-white" style="opacity:0.45">
                   About
                   <br />Offices
@@ -139,8 +139,8 @@
 }
 
 .social-icons {
-  height: 14px;
-  width: 11px;
+  height: 15px;
+  width: auto;
 }
 
 input[type="text"],
@@ -179,5 +179,8 @@ textarea {
   padding: 5px 7px;
   border: solid 1px rgba(112, 112, 112, 0.47);
   border-radius: 2px;
+  width: 67%;
+  height: 167px;
+  padding: 10px;
 }
 </style>
